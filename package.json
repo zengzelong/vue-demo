@@ -1,0 +1,24 @@
+{
+  "name": "vue-demo",
+  "version": "1.0.0",
+  "description": "> vue 基础范例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/browser-sync start --server --no-notify --files='*.html, *.css, *.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zengzelong/vue-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zengzelong/vue-demo/issues"
+  },
+  "homepage": "https://github.com/zengzelong/vue-demo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
