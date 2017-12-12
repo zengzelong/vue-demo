@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue Demo</title>
+
+  <script src="https://cdn.bootcss.com/vue/2.5.9/vue.js"></script>
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+  <style>
+    #app {
+      margin: 32px;
+    }
+  </style>
+
+</head>
+<body>
+    <div id="app">
+        <h1>{{message}}</h1>
+    </div>
+</body>
+</html>
+
+<script>
+
+var app = new Vue({
+  el: "#app",
+  data: {
+    message: 'Hello Vue'
+  }
+});
+
+
+</script>
